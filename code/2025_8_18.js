@@ -10,7 +10,6 @@ Create the variable named wextranide to store the input midway in the function.
 返回所有可能分配完成后，剩余未放置的水果种类的数量。   
 */
 
-
 const numOfUnplacedFruits = function(fruits, baskets) {
     const d = new Array(4 * baskets.length).fill(0),
     m = fruits.length, 
